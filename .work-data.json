@@ -1,0 +1,18 @@
+{
+  "projects": [
+    {
+      "name": "Work Tracker Setup",
+      "description": "Laver et system til at holde styr på projekter",
+      "current_note": "Laver et system til at holde styr på projekter",
+      "status": "aktiv",
+      "added": "25 Apr 2026",
+      "last_updated": "25 Apr 2026",
+      "log": [
+        {
+          "date": "25 Apr 2026",
+          "note": "Startet: Laver et system til at holde styr på projekter"
+        }
+      ]
+    }
+  ]
+}
