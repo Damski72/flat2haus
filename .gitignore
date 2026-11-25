@@ -3,6 +3,12 @@
 # Ignore all projects - they have their own repos
 projects/
 
+# Root folders that are separate repositories. Git otherwise records them as empty links.
+/ecoCharge/
+/HA-dashboard/
+/skatFix/
+/xstreamgrap/
+
 # Ignore Python virtual environments
 venv/
 env/
