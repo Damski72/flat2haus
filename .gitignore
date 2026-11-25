@@ -1,44 +1,6 @@
-# Git ignore for repos root
-
-# Ignore all projects - they have their own repos
-projects/
-
-# Root folders that are separate repositories. Git otherwise records them as empty links.
-/ecoCharge/
-/HA-dashboard/
-/skatFix/
-/xstreamgrap/
-
-# Ignore Python virtual environments
-venv/
-env/
-ENV/
-.venv
-
-# Ignore Python cache
+backend/.venv/
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-
-# Ignore macOS
-.DS_Store
-
-# Ignore IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Ignore temporary files
-*.tmp
-*.log
-*.bak
-
-# Ignore sensitive data
-.env
-*.key
-*.pem
-secrets/
-
-# projects/ har egne git repos - ignoreres her
+*.stl
+*.3mf
+node_modules/
+.next/

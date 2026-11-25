@@ -1,4 +1,21 @@
-# Lars' Personlige Arbejdsområde
+# Flat2Haus 
+
+> From flat blueprints to 3D-printed models.
+
+En guidet web-app (Human-in-the-Loop Wizard), der konverterer indscannede byggetegninger og plantegninger til printbare 3D-modeller (`.STL` / `.3MF`) med automatisk sikring af vægtykkelser.
+
+## Workflow
+1. **Upload & Billedrens:** Beskær og ret skæve scanninger op (OpenCV).
+2. **Kalibrering:** Sæt et kendt mål på tegningen og vælg print-skala (f.eks. 1:100).
+3. **2D Trace & Rettelser:** Tegn/ret vægge, vinduer og døre oven på tegningen (Konva.js).
+4. **3D-generering & Print-sikring:** Ekstruder til 3D med automatisk minimumsvægtykkelse og tag-generator (`build123d`).
+5. **Eksport:** Download printklar `.STL` eller `.3MF`.
+
+## Lokal opsætning (Backend)
+```bash
+cd backend
+pip install -r requirements.txt
+python generate_floorpl# Lars' Personlige Arbejdsområde
 
 Dette er mit strukturerede workspace til projekter, automatisering og AI-agent arbejde.
 
@@ -40,3 +57,6 @@ GitHub Copilot bruger memory-systemet til at huske dine præferencer på tværs 
 
 ---
 *Opdateret: April 2026*
+
+
+
